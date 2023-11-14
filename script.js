@@ -31,6 +31,6 @@ Email.send({
   Subject : top,
   Body : bdy
 }).then(
-message => alert("Message sent. We will contact you soon")
+message => alert("Error in seding message. Go to "Let's talk" for connecting.)
 );
 }
