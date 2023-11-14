@@ -24,10 +24,10 @@ function sendMail () {
   let bdy = document.getElementById("mail").value+" "+document.getElementById("mob").value+" "+document.getElementById("data").value;
 Email.send({
   Host : "smtp.elasticemail.com",
-  Username : "visiter@gmail.com",
-  Password : "8D9D3CF318A6C1754F5BD61840124A2E02D2",
+  Username : "visiters2004@gmail.com",
+  Password : "D5604DBE824B99BFA0FB06FCC50BCE14C88C",
   To : "ritikupadhyay838@gmail.com",
-  From : "visiter@gmail.com",
+  From : "visiters2004@gmail.com",
   Subject : top,
   Body : bdy
 }).then(
