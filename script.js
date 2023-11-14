@@ -31,6 +31,6 @@ Email.send({
   Subject : top,
   Body : bdy
 }).then(
-message => alert("Error in seding message. Go to "Let's talk" for connecting.)
+message => alert("Error in seding message. Go to 'Let's talk' for connecting.")
 );
 }
