@@ -19,18 +19,19 @@ window.onscroll = () => {
   menuIcon.classList.remove('bx-x');
   nav.classList.remove('active');
 }
-function sendMail () {
-  let top = document.getElementById("nm").value;
-  let bdy = document.getElementById("mail").value+" "+document.getElementById("mob").value+" "+document.getElementById("data").value;
-Email.send({
-  Host : "smtp.elasticemail.com",
-  Username : "visiters2004@gmail.com",
-  Password : "D5604DBE824B99BFA0FB06FCC50BCE14C88C",
-  To : "ritikupadhyay838@gmail.com",
-  From : "visiters2004@gmail.com",
-  Subject : top,
-  Body : bdy
-}).then(
-message => alert("Error in seding message. Go to 'Let's talk' for connecting.")
-);
+function sendMail() {
+    let top = document.getElementById("nm").value;
+    let bdy ="<br/>Name - " + document.getElementById("nm").value + "<br/><br/>mail id - " + document.getElementById("mail").value + " " +"<br/><br/>Mobile number - " + document.getElementById("mob").value + " " + "<br/><br/>Message - " + document.getElementById("data").value +"<br/>";
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "visiters2004@gmail.com",
+        Password: "88879B73FD61A3B63466670E6283B72D454C",
+        To: 'ritikupadhyay838@gmail.com',
+        From: 'ritikupadhyay838@gmail.com',
+        Subject: top,
+        Body: bdy
+        }).then(
+        message => alert("Message sent successfully.")
+         );
+     }
 }
