@@ -27,6 +27,17 @@ body
     background: var(--bg-color);
     color: var(--text-color);
 }
+body::-webkit-scrollbar{
+    background-color: var(--bg-color);
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color: var(--main-color);
+    width: 5px;
+    border-radius: 8px;
+}
 
 section
 {
