@@ -619,6 +619,21 @@ left: -.6rem;
         display: flex;
         flex-direction: column;
     }
+    .intro-top
+{
+    font-size: 45px;
+}
+
+.intro-name
+{
+    font-size: 45px;
+}
+
+.intro
+{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
     .social
     {
     bottom: 1.5rem;
