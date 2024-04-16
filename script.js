@@ -19,4 +19,26 @@ window.onscroll = () => {
   menuIcon.classList.remove('bx-x');
   nav.classList.remove('active');
 }
-
+let tl = gsap.timeline();
+tl.from(".header,#logo,.nav>a",{
+    y : -100,
+    delay : 0.2,
+    duration : 1,
+    opacity:0,
+    stagger:0.5
+});
+tl.from("#home",{
+  y : -50,
+  delay:-0.8,
+  duration : 1,
+  opacity:0,
+});
+tl.from(".btn-box",{
+  duration : 1,
+  opacity:0,
+});
+tl.from(".social>a",{
+  duration : 2,
+  opacity:0,
+  stagger:0.2
+});
