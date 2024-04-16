@@ -206,7 +206,7 @@ section
 .social
 {
     position: absolute;
-    bottom: 3rem;
+    bottom: 6rem;
     width: 170px;
     display: flex;
     justify-content: space-between;
