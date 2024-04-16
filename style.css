@@ -408,14 +408,14 @@ left: -.6rem;
     border-radius: .3rem;
     background: var(--main-color);
 }
-.html{width: 80%;}
-.css{width: 75%;}
-.js{width: 40%;}
+.html{width: 85%;}
+.css{width: 80%;}
+.js{width: 70%;}
 .c{width: 70%;}
-.wdev{width: 80%;}
-.wdes{width: 65%;}
+.wdev{width: 85%;}
+.wdes{width: 60%;}
 .prgm{width: 70%;}
-.algo{width: 75%;}
+.algo{width: 60%;}
 
 /*Contact section style*/
 
